@@ -68,7 +68,7 @@ export const mainExamples: Record<
   card: CardExample,
   checkbox: CheckboxExample,
   checkboxItem: CheckboxItemExample,
-  chip: ChipExample,
+  chip: ChipExample as any,
   dataTable: DataTableExample,
   dialog: DialogExample,
   divider: DividerExample,
