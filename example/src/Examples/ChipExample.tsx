@@ -25,7 +25,7 @@ const ChipExample = () => {
         <List.Section title="Flat chip">
           <View style={styles.row}>
             <Chip selected onPress={() => {}} style={styles.chip}>
-              Simple3
+              Simple4
             </Chip>
             {isV3 && (
               <>
