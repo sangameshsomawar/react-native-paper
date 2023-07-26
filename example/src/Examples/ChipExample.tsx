@@ -29,6 +29,15 @@ export default function App() {
             flex: 1,
           }}
         >
+          <Chip
+            onPress={() => alert('clicked')}
+            style={{
+              backgroundColor: '#F0BF05',
+            }}
+          >
+            This chip should take full width
+          </Chip>
+
           <Card style={{ marginBottom: 5 }}>
             <Card.Title
               title={'Title'}
